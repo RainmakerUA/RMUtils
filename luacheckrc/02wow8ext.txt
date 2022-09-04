@@ -1,0 +1,85 @@
+-- Enum
+Enum+
+
+-- Chat
+ChatEdit_GetActiveWindow
+ChatEdit_GetLastActiveWindow
+
+-- GameTooltip
+GameTooltip+
+GameTooltipStatusBar
+GameTooltipTextSmall
+GameTooltip_UnitColor
+GameTooltip_SetDefaultAnchor
+GameTooltip_SetTitle
+GameTooltip_AddColoredLine
+GameTooltip_AddErrorLine
+GameTooltip_AddInstructionLine
+GameTooltip_AddNormalLine
+GameTooltip_InsertFrame
+GameTooltip_ClearInsertedFrames
+
+GameLimitedMode_IsActive
+InterfaceOptionsFrame_OpenToCategory
+
+-- Level
+IsPlayerAtEffectiveMaxLevel
+
+-- Misc UI functions
+CreateColor
+CreateFramePool
+
+-- Global vars
+-- Scalars(strings/numbers)
+ALT_KEY
+CTRL_KEY
+SHIFT_KEY
+BACKGROUND
+FACTION_ALLIANCE
+FACTION_HORDE
+GUILD
+KEY_BUTTON1
+KEY_BUTTON2
+KEY_BUTTON3
+LARGE_NUMBER_SEPERATOR
+LE_ITEM_QUALITY_ARTIFACT
+OFF
+REPUTATION
+TRACKER_SORT_MANUAL
+WOW_PROJECT_ID
+WOW_PROJECT_CLASSIC
+WOW_PROJECT_BURNING_CRUSADE_CLASSIC
+WOW_PROJECT_WRATH_CLASSIC
+WOW_PROJECT_MAINLINE
+
+-- Objects
+FACTION_BAR_COLORS+
+ITEM_QUALITY_COLORS+
+MAX_PLAYER_LEVEL
+MAX_PLAYER_LEVEL_TABLE+
+RAID_CLASS_COLORS
+SOUNDKIT+
+
+BLACK_FONT_COLOR+
+GREEN_FONT_COLOR+
+LIGHTBLUE_FONT_COLOR+
+NORMAL_FONT_COLOR+
+ORANGE_FONT_COLOR+
+RED_FONT_COLOR+
+WHITE_FONT_COLOR+
+HIGHLIGHT_FONT_COLOR+
+
+TOOLTIP_DEFAULT_BACKGROUND_COLOR
+
+PERFORMANCEBAR_LOW_LATENCY
+PERFORMANCEBAR_MEDIUM_LATENCY
+PERFORMANCEBAR_UPDATE_INTERVAL
+
+GameFontNormal+
+Item+
+MainMenuExpBar+
+Minimap
+ReputationWatchBar+
+StatusTrackingBarManager+
+UIParent+
+WorldFrame+

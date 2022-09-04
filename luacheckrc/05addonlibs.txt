@@ -1,0 +1,8 @@
+-- Globals from addon libs
+LibStub.GetLibrary
+LibStub.NewLibrary
+AceGUIWidgetLSMlists.font
+AceGUIWidgetLSMlists.sound
+AceGUIWidgetLSMlists.statusbar
+AceGUIWidgetLSMlists.border
+AceGUIWidgetLSMlists.background
