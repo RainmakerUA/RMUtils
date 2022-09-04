@@ -1,2 +1,2 @@
 # RMUtils
-Miscellanious utilities for WoW Addons
+Miscellanious utilities and widgets for WoW Addons
