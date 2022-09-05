@@ -34,14 +34,13 @@ local classSeparators = {
 	ruRU = "\194\160" -- NBSP
 }
 
-local classSeparator = classSeparators[locale]
+local hasLargeNumberSeperator = LARGE_NUMBER_SEPERATOR and #LARGE_NUMBER_SEPERATOR > 0
 
-if type(BreakUpLargeNumbers) == "function" then
+if type(BreakUpLargeNumbers) == "function" and hasLargeNumberSeperator then
 	breakUpLargeNumber = BreakUpLargeNumbers
 else
-	if not classSeparator then
-		classSeparator = LARGE_NUMBER_SEPERATOR and #LARGE_NUMBER_SEPERATOR > 0 and LARGE_NUMBER_SEPERATOR or ","
-	end
+	local classSeparator = hasLargeNumberSeperator and LARGE_NUMBER_SEPERATOR or (classSeparators[locale] or ",")
+
 	breakUpLargeNumber = function(num)
 		if type(num) ~= "number" then
 			return num
