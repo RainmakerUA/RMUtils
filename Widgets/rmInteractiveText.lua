@@ -10,7 +10,7 @@ local AceGUI = LibStub and LibStub("AceGUI-3.0")
 -- Exit if a current or newer version is loaded.
 if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 
-local Utils = LibStub("rmUtils-1.0")
+local Utils = LibStub("rmUtils-1.1")
 
 local tinsert = table.insert
 local tremove = table.remove
