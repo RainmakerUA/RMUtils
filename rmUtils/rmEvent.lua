@@ -6,11 +6,13 @@
 
 local rmUtils = LibStub("rmUtils-1.1")
 local eventMod = {}
+local addonName = ...
 
 rmUtils.Event = eventMod
 
 local error = error
 local ipairs = ipairs
+local print = print
 local setmetatable = setmetatable
 local tinsert = table.insert
 local type = type
@@ -48,7 +50,18 @@ local function raise(event, ...)
 	return result
 end
 
-function eventMod.New(name)
+function eventMod.New(nameOrSelf, maybeName)
+    local text = rmUtils.Text
+    local name = nameOrSelf
+    if type(nameOrSelf) == "table" and type(maybeName) == "string" then
+        --@debug@
+        print(
+                text.GetInstruction(addonName),
+                text.GetWarning("RMUtils.Event New(\"" .. maybeName .. "\") is called with self! Use '.' instead of ':'!")
+            )
+        --@end-debug@
+        name = maybeName
+    end
 	return setmetatable({
 		name = name,
 		AddHandler = addHandler,
