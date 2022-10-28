@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.0
+		## RM Utils library ver. 1.1.1
 		## rmUtils-version.lua - Version sub-module
 		Code for WoW Version detection logic
 --]=====]

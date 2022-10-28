@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.0
+		## RM Utils library ver. 1.1.1
 		## rmUtils-numbers.lua - Numbers sub-module
 		Code for number formatting logic
 --]=====]
@@ -23,6 +23,7 @@ local LARGE_NUMBER_SEPERATOR = LARGE_NUMBER_SEPERATOR
 
 local breakUpLargeNumber
 
+local testNumber = 192837465
 local locale = GetLocale()
 local breakCount = 3
 
@@ -36,7 +37,8 @@ local classSeparators = {
 
 local hasLargeNumberSeperator = LARGE_NUMBER_SEPERATOR and #LARGE_NUMBER_SEPERATOR > 0
 
-if type(BreakUpLargeNumbers) == "function" and hasLargeNumberSeperator then
+if type(BreakUpLargeNumbers) == "function" and hasLargeNumberSeperator
+        and BreakUpLargeNumbers(testNumber) ~= tostring(testNumber) then
 	breakUpLargeNumber = BreakUpLargeNumbers
 else
 	local classSeparator = hasLargeNumberSeperator and LARGE_NUMBER_SEPERATOR or (classSeparators[locale] or ",")
