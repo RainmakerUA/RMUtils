@@ -81,6 +81,7 @@ Item+
 MainMenuExpBar+
 Minimap
 ReputationWatchBar+
+ReputationBarMixin+
 StatusTrackingBarManager+
 UIParent+
 WorldFrame+
