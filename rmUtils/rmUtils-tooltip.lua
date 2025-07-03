@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.1
+		## RM Utils library ver. 1.1.3
 		## rmUtils-tooltip.lua - Tooltip sub-module
 		Wrapper-helper for tooltip object
 --]=====]
