@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.3
+		## RM Utils library ver. 1.1.4
 		## rmEvent.lua - Tables sub-module
 		Code for table manipulating logic
 --]=====]

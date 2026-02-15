@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.3
+		## RM Utils library ver. 1.1.4
 		## rmUtils-text.lua - Text sub-module
 		Code for text formatting and manipulation logic
 --]=====]

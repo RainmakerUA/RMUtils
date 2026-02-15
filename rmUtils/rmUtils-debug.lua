@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.3
+		## RM Utils library ver. 1.1.4
 		## rmUtils-debug.lua - Debug sub-module
 		Code for debug print logic
 --]=====]

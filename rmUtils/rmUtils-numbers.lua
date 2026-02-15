@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.3
+		## RM Utils library ver. 1.1.4
 		## rmUtils-numbers.lua - Numbers sub-module
 		Code for number formatting logic
 --]=====]

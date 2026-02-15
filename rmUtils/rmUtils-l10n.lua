@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.3
+		## RM Utils library ver. 1.1.4
 		## rmUtils-l10n.lua - Localization sub-module
 		Code for advanced localization logic
 --]=====]

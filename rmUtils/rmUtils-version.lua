@@ -1,5 +1,5 @@
 --[=====[
-		## RM Utils library ver. 1.1.3
+		## RM Utils library ver. 1.1.4
 		## rmUtils-version.lua - Version sub-module
 		Code for WoW Version detection logic
 --]=====]
@@ -34,7 +34,7 @@ else
 	U.IsTBCClassic = not U.IsClassicEra and interfaceVersion < 30000
 	U.IsWrathClassic = not U.IsTBCClassic and interfaceVersion < 40000
 	U.IsCataClassic = not U.IsWrathClassic and interfaceVersion < 50000
-	U.IsMistsClassic = not U.IsWrathClassic and interfaceVersion < 90000
+	U.IsMistsClassic = not U.IsCataClassic and interfaceVersion < 90000
 end
 
 U.IsClassic = U.IsClassicEra or U.IsTBCClassic or U.IsWrathClassic or U.IsCataClassic or U.IsMistsClassic
